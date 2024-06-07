@@ -2,13 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "engines": {
     "node": "20.11.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "build": "prisma generate && vercel build"
   },
   "keywords": [],
