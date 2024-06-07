@@ -8,7 +8,7 @@
     "node": "20.11.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "build": "prisma generate && vercel build"
   },
   "keywords": [],
